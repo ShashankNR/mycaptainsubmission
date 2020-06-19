@@ -3,9 +3,9 @@ int sum();
 int main()
 {
 	int number=1234;
-	printf("Input:%d\n", number);
+	printf("Input number: %d\n", number);
 	int result=sum(number);
-	printf("Output: %d", result);
+	printf("Sum of digits: %d", result);
 }
 
 int sum(int n)
